@@ -1,0 +1,40 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main-logo {
+  width: 35%;
+  margin-bottom: 25px;
+}
+.search-icon {
+  width: 25px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 60%;
+}
+.input-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.list-items {
+  padding-left: 0px;
+  width: 95%;
+}
+.input-element {
+  border: none;
+}
